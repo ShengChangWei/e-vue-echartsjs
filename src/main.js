@@ -2,9 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import EVueContextmenu from './../packages/index.js'
+import EVueEchartsjs from './../packages/index.js'
 
-Vue.use(EVueContextmenu)
+Vue.use(EVueEchartsjs)
 Vue.config.productionTip = false
 
 

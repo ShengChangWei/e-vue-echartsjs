@@ -1,7 +1,7 @@
-import EVueContextmenu from './e-vue-contextmenu/index.js';
+import EVueEchartsjs from './e-vue-echartsjs/index.js';
 
 const components = [
-    EVueContextmenu
+    EVueEchartsjs
 ];
 
 const install = function (Vue) {
@@ -16,5 +16,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
     install,
-    EVueContextmenu
+    EVueEchartsjs
 }

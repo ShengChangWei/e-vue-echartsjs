@@ -1,23 +1,23 @@
 {
-  "name": "e-vue-contextmenu",
-  "version": "0.1.0",
-  "description": "基于 vue 的鼠标右键菜单组件",
-  "main": "lib/e-vue-contextmenu.common.js",
+  "name": "e-vue-echartsjs",
+  "version": "0.1.1",
+  "description": "基于Vue+javaScript的Echarts图表组件",
+  "main": "lib/e-vue-echartsjs.common.js",
   "keywords": [
     "vue",
-    "contextmenu",
+    "e-vue-echartsjs",
     "shengchangwei"
   ],
-  "homepage": "https://github.com/ShengChangWei/e-vue-contextmenu#readme",
+  "homepage": "https://github.com/ShengChangWei/e-vue-echartsjs#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShengChangWei/e-vue-contextmenu.git"
+    "url": "https://github.com/ShengChangWei/e-vue-echartsjs.git"
   },
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name e-vue-contextmenu --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name e-vue-echartsjs --dest lib packages/index.js"
   },
   "author": {
     "name": "圣长伟",
@@ -26,9 +26,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "echarts": "^4.2.1",
     "vue": "^2.6.6",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
