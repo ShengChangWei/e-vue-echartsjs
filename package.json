@@ -1,6 +1,6 @@
 {
   "name": "e-vue-echartsjs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "基于Vue+javaScript的Echarts图表组件",
   "main": "lib/e-vue-echartsjs.common.js",
   "keywords": [
