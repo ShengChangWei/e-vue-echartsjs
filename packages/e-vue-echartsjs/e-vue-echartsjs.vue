@@ -24,7 +24,6 @@ export default {
   },
   created() {
     this.es = new EVueEchartsService();
-    console.log(this.es);
   },
   mounted() {
     this.echartsIntance = this.es.init(
